@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WorldExplorerApp</string>
+    <string name="error">Error: %1$s</string>
+    <string name="retry">Retry</string>
+    <string name="world_explorer">World Explorer</string>
+    <string name="no_countries_available">No countries available</string>
 </resources>
