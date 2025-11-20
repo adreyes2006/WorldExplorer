@@ -1,6 +1,6 @@
 package com.example.worldexplorer.data.dto
 
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 
 
 fun CountryDto.toDomain(): Country {

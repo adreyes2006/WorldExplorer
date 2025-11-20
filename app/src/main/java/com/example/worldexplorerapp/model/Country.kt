@@ -1,4 +1,4 @@
-package com.example.worldexplorerapp.data.model
+package com.example.worldexplorerapp.model
 
 data class Country(
     val name: String,

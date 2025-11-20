@@ -39,6 +39,7 @@ android {
     buildFeatures {
         compose = true
     }
+
 }
 
 dependencies {
@@ -64,8 +65,15 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+
+    // Room (KSP)
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+
     implementation(libs.androidx.hilt.navigation.compose)
     testImplementation(libs.mockk)
     testImplementation(libs.kotlinx.coroutines.test)

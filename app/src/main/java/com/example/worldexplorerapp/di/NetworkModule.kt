@@ -1,7 +1,7 @@
 package com.example.worldexplorer.di
 
 import com.example.worldexplorer.network.ApiService
-import com.example.worldexplorerapp.network.RetrofitInstance.BASE_URL
+import com.example.worldexplorerapp.data.network.RetrofitInstance.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

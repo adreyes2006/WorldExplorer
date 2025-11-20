@@ -1,6 +1,6 @@
 package com.example.worldexplorerapp.ui.countries
 
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 
 
 sealed interface CountryUiState {

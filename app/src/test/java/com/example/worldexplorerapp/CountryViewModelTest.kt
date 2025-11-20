@@ -2,7 +2,7 @@ package com.example.worldexplorerapp
 
 import com.example.worldexplorerapp.domain.GetCountriesUseCase
 import com.example.worldexplorerapp.ui.countries.CountryUiState
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 import com.example.worldexplorerapp.ui.countries.CountryViewModel
 import org.junit.Assert.*
 import io.mockk.coEvery

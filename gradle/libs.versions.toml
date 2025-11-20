@@ -45,6 +45,10 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 junit-junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
 
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidxRoom" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidxRoom" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidxRoom" }
+
 
 
 [plugins]

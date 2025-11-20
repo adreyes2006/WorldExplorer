@@ -1,6 +1,6 @@
 package com.example.worldexplorer.data.repository
 
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 
 
 interface ICountryRepository {

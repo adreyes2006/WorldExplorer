@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.worldexplorerapp.R
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 
 @Composable
 fun CountryScreen(viewModel: CountryViewModel = hiltViewModel()) {

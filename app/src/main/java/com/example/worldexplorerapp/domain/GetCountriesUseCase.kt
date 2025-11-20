@@ -1,7 +1,7 @@
 package com.example.worldexplorerapp.domain
 
 import com.example.worldexplorer.data.repository.ICountryRepository
-import com.example.worldexplorerapp.data.model.Country
+import com.example.worldexplorerapp.model.Country
 import javax.inject.Inject
 
 class GetCountriesUseCase @Inject constructor(

@@ -1,4 +1,4 @@
-package com.example.worldexplorerapp.network
+package com.example.worldexplorerapp.data.network
 
 import com.example.worldexplorer.network.ApiService
 import retrofit2.Retrofit
